@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  background-image: -moz-linear-gradient(rgba(0,0,0,0.4)),url(film.jpeg);
+
+}
+
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing:border-box;
+  font-size: 14px;
+}
+
+.box{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px;
+  border-radius: 4px;
+}
+
+
+body
+{
+ height= 100%;
+ width= 100%;
+ background-image: url('film.jpeg');
+ background-size:cover;
+ background-position:center;
+ background-repeat:no repeat;
+}
+
+h2,h4{
+ color: #f2f2f2;
+ text-align: center;
+}
+
+label{
+  color: #f2f2f2;
+}
+
+text{
+  text-align: center;
+}
+
+    </style>
+</head>
+<body > 
+  
+  <div class="login-page">
+    <h2>FILM AWARDS MANAGEMENT</h2><br />
+      <div class="form-box">
+        <form class="login-form" method="post" >
+          <div class="text">    
+            <h4>ADMIN LOGIN</h4>
+          </div>
+          <label for="username">Username : </label><br />
+          <input class="box" type="text" id="username"  name="username" size="8" /><br />
+                
+          <label for="password">Password :</label><br />
+          <input class="box" type="password" id="password" name="password" size="8"/>
+                
+          <input class="box" style="background-color: rgb(9, 100, 169)" type="submit" value="SUBMIT" onclick="checkLogin()"  />               
+          <input class="box" style="background-color:  rgb(9, 100, 169)" type="reset" value="RESET" />      
+          <script>
+            function checkLogin() 
+            {
+			       var username = document.getElementById("username").value;
+			             var password = document.getElementById("password").value;
+		               if (username === "lalee" && password === "6263")
+                    {			
+			              	window.location.href = "home.html";
+                      alert("Login successful !");
+			              } 
+                   else 
+                   {
+				             alert("Invalid username or password!");
+		            	 }
+		        }
+          </script>
+         </form>
+        </div>     
+      </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="addform.css" type="text/css" />
+        <title>AWARDS</title>
+        <h2>AWARDS</h2>
+        <style>
+            select
+              {
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+                outline: 0;
+                background:rgb(255, 255, 255);
+                width: 100%;
+                border: 0;
+                padding: 15px;
+                color: #020202;
+                font-size: 14px;
+                -webkit-transition: all 0.3 ease;
+                transition: all 0.3 ease;
+                cursor: pointer;
+              }
+            </style>
+    </head>
+    <body>
+        <form action="award.php" method="post">
+            <label>Enter Award ID</label>
+            <input type="text" name="Award_ID"  />
+            <br />
+            <br />
+            <label>Enter Award name</label>
+            
+            <select name="Award_name" id="Award_name">
+                <option value="Best Actor">Best Actor</option>
+                <option value="Best Actress">Best Actress</option>
+                <option value="Bes Director">Director</option>
+                <option value="Best singer">Best Singer</option>
+                <option value="Best Music Director">Music Director</option>
+                <option value="Best Choreographer">Best Choreographer</option>
+                <option value="Best Cinematographer ">Best Cinematographer</option>
+              </select>
+            <br />
+            <br />
+            <label>Enter Nomination ID  </label>
+            <input type="text" name="NominationID"  />
+            <br />
+            <p>
+                <input type="submit" label="submit" name="submit"> <input type="reset" label="reset"
+                name="reset"> 
+            </p>
+        </form>
+    </body>
+</html>

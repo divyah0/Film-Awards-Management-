@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        .homepage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('login.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .form {
+            max-width: 360px;
+            width: 100%;
+            padding: 45px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        
+        h2, h4 {
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background-color: #ffffff;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #070707;
+            font-size: 14px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .form button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="homepage">
+        <div class="form">
+            <h2>FILM AWARDS MANAGEMENT</h2>
+            <h4>HOME</h4>
+            <br>
+            <div class="login-form">
+                <button onclick="myfunction1()">NOMINATIONS</button>
+                <br><br>
+                <button onclick="myfunction2()">AWARDS</button>
+                <br><br>
+                <button onclick="myfunction3()">PRESENTERS</button>
+                <br><br>
+                <button onclick="myfunction4()">GUESTS</button>
+                <br><br>
+                <button onclick="myfunction5()">EVENTS</button>
+                <br><br>
+                <button onclick="myfunction6()">DISPLAY</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myfunction1() {
+            window.location.href = 'nom_dis.php';
+        }
+
+        function myfunction2() {
+            window.location.href = 'award_dis.php';
+        }
+
+        function myfunction3() {
+            window.location.href = 'presenter_dis.php';
+        }
+
+        function myfunction4() {
+            window.location.href = 'guest_dis.php';
+        }
+
+        function myfunction5() {
+            window.location.href = 'event_dis.php';
+        }
+
+        function myfunction6() {
+            window.location.href = 'display.php';
+        }
+    </script>
+</body>
+</html>

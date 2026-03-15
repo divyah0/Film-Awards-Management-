@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="addform.css" type="text/css" />
+        <title>EVENTS</title>
+        <h2>EVENTS</h2>
+        <style>
+            select
+              {
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+                outline: 0;
+                background:rgb(255, 255, 255);
+                width: 100%;
+                border: 0;
+                padding: 15px;
+                color: #020202;
+                font-size: 14px;
+                -webkit-transition: all 0.3 ease;
+                transition: all 0.3 ease;
+                cursor: pointer;
+              }
+            </style>
+    </head>
+    <body>
+        <form action="event.php" method="post">
+            <label>Enter Event ID</label>
+            <input type="text" name="EventID" size="10" />
+            <br />
+            <br />
+            <label>Enter Event name</label>
+            <select name="Event name" id="Event name">
+                <option value=" Opening ceremony">Opening ceremony</option>
+                <option value=" Dance performance">Dance performance</option>
+                <option value=" Singing performance">Singing performance</option>
+                <option value=" Drama">Drama</option>
+                <option value=" Standup comedy">Standup comedy</option>
+                <option value=" Mimicry">Mimicry</option>
+                <option value=" Instant painting">Instant painting</option>
+                <option value=" Musical band">Musical band</option>
+                <option value=" Award presentation">Award presentation</option>  
+                <option value=" Fashion walk">Fashion walk</option> 
+                <option value=" Theme song">Theme song</option>
+                <option value=" Closing ceremony">Closing ceremony</option>
+                           
+              </select>
+            <br />
+            <br />
+            <label>Enter Event slot </label>
+            <input type="text" name="EventSlot" />
+            <br />
+            <br />
+            <label>Enter Event Manager name</label>
+            <input type="text" name="EventManager" />
+            <br />
+            <br />
+            <p>
+                <input type="submit" label="submit" name="submit"> <input type="reset" label="reset"
+                name="reset"> 
+            </p>
+        </form>
+    </body>
+</html>

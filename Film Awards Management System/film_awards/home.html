@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <style>
+
+            .homepage{
+              width: 360px;
+              padding: 8% 0 0;
+              margin: auto;
+              background-image: -moz-linear-gradient(rgba(0,0,0,0)),url(login.jpg);
+            
+            }
+            
+            form{
+              position: relative;
+              z-index: 1;
+              background: #FFFFFF;
+              max-width: 360px;
+              margin: auto;
+              padding: 45px;
+              text-align: center;
+              
+            }
+            
+            form input {
+              font-family: "Roboto", sans-serif;
+              outline: 0;
+              background: #f2f2f2;
+              width: 100%;
+              border: 0;
+              margin: 0 0 15px;
+              padding: 15px;
+              box-sizing: border-box;
+              font-size: 14px;
+            }
+            
+            .form button {
+              font-family: "Roboto", sans-serif;
+              text-transform: uppercase;
+              outline: 0;
+              background:rgb(255, 255, 255);
+              width: 100%;
+              border: 0;
+              padding: 15px;
+              color: #070707;
+              font-size: 14px;
+              -webkit-transition: all 0.3 ease;
+              transition: all 0.3 ease;
+              cursor: pointer;
+              
+            }
+            
+            
+            body
+            {
+                
+            background-image: url('login.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no repeat;
+            }
+            
+            h2,h4{
+                color: white;
+                text-align: center;
+            }
+
+            text{
+                text-align: center;
+            }
+
+            
+            
+                </style>
+    </head>
+    <body >
+        <div class="homepage" method="post" > 
+            <div class="form-box" method="post"> 
+                <div class="form" method="post"> 
+        <h2>FILM AWARDS MANAGEMENT</h2>
+        <h4>HOME</h4>
+        <br />
+        <script>
+          if(!isLoggedIn)
+          {
+            const currentUrl = window.location.href;
+            const loginUrl='login.html?redirect=${encodeURIComponent(home.html)}'
+            window.location.href = loginUrl;
+          }
+        </script>
+          <div class="login-form" method="post">
+            <button onclick="myfunction1()">NOMINATIONS</button>
+            <script>
+              function myfunction1()
+              {
+                window.location.href = 'nom_dis.php'
+              }
+            </script>
+            <br />
+            <br />
+            <button onclick="myfunction2()">AWARDS</button>
+            <script>
+              function myfunction2()
+              {
+                window.location.href = 'award_dis.php'
+              }
+            </script>
+            <br />
+            <br />
+            <button onclick="myfunction3()">PRESENTERS</button>
+            <script>
+              function myfunction3()
+              {
+                window.location.href = 'presenter_dis.php'
+              }
+            </script>
+            <br />
+            <br />
+            <button onclick="myfunction4()">GUESTS</button>
+            <script>
+              function myfunction4()
+              {
+                window.location.href = 'guest_dis.php'
+              }
+            </script>
+            <br />
+            <br />
+            <button onclick="myfunction5()">EVENTS</button>
+            <script>
+              function myfunction5()
+              {
+                window.location.href = 'event_dis.php'
+              }
+            </script>
+            <br />
+            <br />
+            <button onclick="myfunction6()">DISPLAY</button>
+            <script>
+              function myfunction6()
+              {
+                window.location.href = 'display.php'
+              }
+            </script>
+          </div>
+
+          </div>
+        </div>
+    </div>
+
+    </body>
+</html>
