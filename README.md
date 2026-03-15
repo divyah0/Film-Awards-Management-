@@ -215,7 +215,7 @@ Software Developer | Python & Web Development Enthusiast
 
 - 💻 Interested in **Full Stack Development**
 - 🚀 Passionate about building **real-world web applications**
-- 🛠 Skilled in **Python, Django, MERN Stack, and SQL**
+- 🛠 Skilled in **Python, Django, and SQL**
 
 
 GitHub:
