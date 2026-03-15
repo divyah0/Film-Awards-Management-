@@ -1,14 +1,13 @@
 # 🎬 Film Awards Management System
-
 ## 📌 Project Overview
 
-Film Awards Management System built using PHP, MySQL, HTML, and CSS to manage film events, nominations, presenters, and awardees.
+✔ Film Awards Management System built using PHP, MySQL, HTML, and CSS to manage film events, nominations, presenters, and awardees.
 
-The Film Awards Management System is a database-driven web application designed to manage and organize information related to film award events.
+✔ The Film Awards Management System is a database-driven web application designed to manage and organize information related to film award events.
 
-The system allows administrators to maintain records of films, nominees, presenters, guests, and awardees through an interactive web interface.
+✔ The system allows administrators to maintain records of films, nominees, presenters, guests, and awardees through an interactive web interface.
 
-This project demonstrates how PHP interacts with a MySQL database to perform operations such as data insertion, retrieval, and display. The application provides structured modules for managing different aspects of film award events.
+✔ This project demonstrates how PHP interacts with a MySQL database to perform operations such as data insertion, retrieval, and display. The application provides structured modules for managing different aspects of film award events.
 
 ## 🎯 Project Objectives
 
