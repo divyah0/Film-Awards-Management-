@@ -163,25 +163,20 @@ film_awards/
     └── new.jpeg
 ```
 
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-Example:
 
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](Screenshots/Home.png)
 
 ### Event Management
-![Event](screenshots/event.png)
+![Event](Screenshots/Event-Module.png)
 
 ### Nomination Module
-![Nomination](screenshots/nomination.png)
+![Nomination](Screenshots/Nomination-Module.png)
 
 ### Presenter Module
-![Presenter](screenshots/presenter.png)
+![Presenter](Screenshots/Presenter-Module.png)
 
 
 
